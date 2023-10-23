@@ -22,7 +22,7 @@
 
 #define TS_DRIVER_NAME				"gtx8_i2c"
 #define I2C_MAX_TRANSFER_SIZE		256
-#define GOODIX_BUS_RETRY_TIMES		2
+#define GOODIX_BUS_RETRY_TIMES		5
 #define GOODIX_REG_ADDR_SIZE		4
 
 static struct platform_device *goodix_pdev;
